@@ -1,0 +1,18 @@
+name: Artifact checks
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  offline-checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Snapshot interruption and integrity tests
+        run: python -m unittest discover -s papers/reliable_recovery/tests -v
+      - name: Audit recorded experiment results
+        run: python papers/reliable_recovery/audit_results.py
+      - name: Check Python syntax
+        run: python -m compileall -q robot_gym scripts papers/reliable_recovery

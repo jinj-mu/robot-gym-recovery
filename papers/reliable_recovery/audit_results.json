@@ -1,0 +1,387 @@
+{
+  "baseline": {
+    "n": 100,
+    "successes": 83,
+    "fails": 17
+  },
+  "detection": {
+    "counts_by_label": {
+      "TP": 14,
+      "TN": 22,
+      "FP": 1
+    },
+    "leave_empty": {
+      "n": 14,
+      "recall": 1.0,
+      "TP": 14,
+      "FN": 0,
+      "mean_delta_fire_minus_gt": 43.857142857142854,
+      "median_delta_fire_minus_gt": 28.5
+    },
+    "success_negatives": {
+      "n": 21,
+      "false_positive_rate": 0.047619047619047616,
+      "FP": 1,
+      "TN": 20
+    },
+    "held_but_no_place": {
+      "n": 2,
+      "false_positive_rate": 0.0,
+      "FP": 0,
+      "TN": 2
+    },
+    "fire_while_gt_holding_any": 0
+  },
+  "miss_pick_seeds": [
+    1101,
+    1202,
+    1207,
+    1209,
+    1302,
+    1303,
+    1307,
+    1502,
+    1505,
+    1608,
+    1703,
+    1707,
+    1900,
+    1906
+  ],
+  "runs": [
+    {
+      "run": "miss_pick_stress",
+      "n": 14,
+      "successes": 8,
+      "episodes": [
+        {
+          "seed": 1101,
+          "success": true
+        },
+        {
+          "seed": 1202,
+          "success": true
+        },
+        {
+          "seed": 1207,
+          "success": false
+        },
+        {
+          "seed": 1209,
+          "success": true
+        },
+        {
+          "seed": 1302,
+          "success": true
+        },
+        {
+          "seed": 1303,
+          "success": false
+        },
+        {
+          "seed": 1307,
+          "success": false
+        },
+        {
+          "seed": 1502,
+          "success": true
+        },
+        {
+          "seed": 1505,
+          "success": true
+        },
+        {
+          "seed": 1608,
+          "success": true
+        },
+        {
+          "seed": 1703,
+          "success": true
+        },
+        {
+          "seed": 1707,
+          "success": false
+        },
+        {
+          "seed": 1900,
+          "success": false
+        },
+        {
+          "seed": 1906,
+          "success": false
+        }
+      ]
+    },
+    {
+      "run": "miss_pick_stress_v10_bbq",
+      "n": 2,
+      "successes": 0,
+      "episodes": [
+        {
+          "seed": 1303,
+          "success": false
+        },
+        {
+          "seed": 1307,
+          "success": false
+        }
+      ]
+    },
+    {
+      "run": "miss_pick_stress_v3b",
+      "n": 14,
+      "successes": 6,
+      "episodes": [
+        {
+          "seed": 1101,
+          "success": true
+        },
+        {
+          "seed": 1202,
+          "success": true
+        },
+        {
+          "seed": 1207,
+          "success": true
+        },
+        {
+          "seed": 1209,
+          "success": true
+        },
+        {
+          "seed": 1302,
+          "success": false
+        },
+        {
+          "seed": 1303,
+          "success": false
+        },
+        {
+          "seed": 1307,
+          "success": false
+        },
+        {
+          "seed": 1502,
+          "success": false
+        },
+        {
+          "seed": 1505,
+          "success": false
+        },
+        {
+          "seed": 1608,
+          "success": true
+        },
+        {
+          "seed": 1703,
+          "success": false
+        },
+        {
+          "seed": 1707,
+          "success": false
+        },
+        {
+          "seed": 1900,
+          "success": true
+        },
+        {
+          "seed": 1906,
+          "success": false
+        }
+      ]
+    },
+    {
+      "run": "miss_pick_stress_v5_horizon",
+      "n": 8,
+      "successes": 5,
+      "episodes": [
+        {
+          "seed": 1302,
+          "success": true
+        },
+        {
+          "seed": 1303,
+          "success": false
+        },
+        {
+          "seed": 1307,
+          "success": false
+        },
+        {
+          "seed": 1502,
+          "success": true
+        },
+        {
+          "seed": 1505,
+          "success": true
+        },
+        {
+          "seed": 1703,
+          "success": true
+        },
+        {
+          "seed": 1707,
+          "success": true
+        },
+        {
+          "seed": 1906,
+          "success": false
+        }
+      ]
+    },
+    {
+      "run": "miss_pick_stress_v6_hard3",
+      "n": 1,
+      "successes": 0,
+      "episodes": [
+        {
+          "seed": 1303,
+          "success": false
+        }
+      ]
+    },
+    {
+      "run": "miss_pick_stress_v7_scripted",
+      "n": 3,
+      "successes": 1,
+      "episodes": [
+        {
+          "seed": 1303,
+          "success": false
+        },
+        {
+          "seed": 1307,
+          "success": false
+        },
+        {
+          "seed": 1906,
+          "success": true
+        }
+      ]
+    },
+    {
+      "run": "miss_pick_stress_v8_scripted",
+      "n": 3,
+      "successes": 1,
+      "episodes": [
+        {
+          "seed": 1303,
+          "success": false
+        },
+        {
+          "seed": 1307,
+          "success": false
+        },
+        {
+          "seed": 1906,
+          "success": true
+        }
+      ]
+    },
+    {
+      "run": "miss_pick_stress_v9_bbq",
+      "n": 2,
+      "successes": 0,
+      "episodes": [
+        {
+          "seed": 1303,
+          "success": false
+        },
+        {
+          "seed": 1307,
+          "success": false
+        }
+      ]
+    }
+  ],
+  "cross_version_successes": [
+    1101,
+    1202,
+    1207,
+    1209,
+    1302,
+    1502,
+    1505,
+    1608,
+    1703,
+    1707,
+    1900,
+    1906
+  ],
+  "gallery": [
+    {
+      "seed": 1101,
+      "object": "cream cheese",
+      "success": true
+    },
+    {
+      "seed": 1202,
+      "object": "salad dressing",
+      "success": true
+    },
+    {
+      "seed": 1207,
+      "object": "salad dressing",
+      "success": true
+    },
+    {
+      "seed": 1209,
+      "object": "salad dressing",
+      "success": true
+    },
+    {
+      "seed": 1302,
+      "object": "bbq sauce",
+      "success": true
+    },
+    {
+      "seed": 1502,
+      "object": "tomato sauce",
+      "success": true
+    },
+    {
+      "seed": 1505,
+      "object": "tomato sauce",
+      "success": true
+    },
+    {
+      "seed": 1608,
+      "object": "butter",
+      "success": true
+    },
+    {
+      "seed": 1703,
+      "object": "milk",
+      "success": false
+    },
+    {
+      "seed": 1707,
+      "object": "milk",
+      "success": false
+    },
+    {
+      "seed": 1900,
+      "object": "orange juice",
+      "success": false
+    },
+    {
+      "seed": 1906,
+      "object": "orange juice",
+      "success": false
+    }
+  ],
+  "source_sha256": {
+    "outputs/libero_inference/paper_oracle_v1/baseline_summary.json": "525ff521cf7deed54f60eb5dc83acd8e5274789db45474fea428e7f6eee41bbb",
+    "outputs/libero_inference/paper_oracle_v1/failure_atlas_gt.json": "022a6d65dc97027ad6b6795e9dc35b9fe06dbd1aaf4bf48c743316a3c1796666",
+    "outputs/libero_inference/paper_oracle_v1/miss_pick_stress/detect_results.json": "8ceae5c359cc011af1c2f3622ac712344fff5a6afa6055e922daadff49fa8897",
+    "outputs/libero_inference/paper_oracle_v1/recovered_sxs_12/gallery.json": "da09bf0536828448b67c23a5d82a21763d6d11b35f7d85393cc977c3ede3d319",
+    "outputs/libero_inference/paper_oracle_v1/miss_pick_stress/recover_results.json": "f81ecb262b5a82ea8d6c4de49b6f085e2e16816cb665f566f1dc63e1ff482d23",
+    "outputs/libero_inference/paper_oracle_v1/miss_pick_stress_v10_bbq/recover_results.json": "1b3a8419546eebcde510a7adc28e738c40b8655c89b75824caccb6ccab928085",
+    "outputs/libero_inference/paper_oracle_v1/miss_pick_stress_v3b/recover_results.json": "4080fd2963373a8e9b498d840ec7c57077c2c18b204f6e20a03d40ab57ba2e7d",
+    "outputs/libero_inference/paper_oracle_v1/miss_pick_stress_v5_horizon/recover_results.json": "47eaaeacd8091079c66cf98f8490b5498daacf06339be07d2dcde5d5b3b197b7",
+    "outputs/libero_inference/paper_oracle_v1/miss_pick_stress_v6_hard3/recover_results.json": "0407b7be20ee7e5fd9efbccf55cd575c7db15625797308fab085f48caa5ff241",
+    "outputs/libero_inference/paper_oracle_v1/miss_pick_stress_v7_scripted/recover_results.json": "5ad434054cedd5888cef08c9441b63c8cdd18e15c098b588205c1de1dbea7f47",
+    "outputs/libero_inference/paper_oracle_v1/miss_pick_stress_v8_scripted/recover_results.json": "0ea9d8e3e538757b2f11b611dbc32fc8fd69855e9bf5a344275192db4e097dd4",
+    "outputs/libero_inference/paper_oracle_v1/miss_pick_stress_v9_bbq/recover_results.json": "c1837eebc12787c922df3a2497349cc9bf5eb0a03b3cc9cfd85cd325491af6de"
+  }
+}

@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying technical report when using this project."
+title: "Reliable Recovery Around a Frozen Robot Policy: A Case Study in Missed Grasps and Configuration Preservation"
+authors:
+  - family-names: Zhao
+    given-names: Jinjin
+  - family-names: Thompson
+    given-names: James
+type: software
+repository-code: 'https://github.com/jinj-mu/robot-gym-recovery'

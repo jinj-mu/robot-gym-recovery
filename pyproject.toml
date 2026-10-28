@@ -1,0 +1,36 @@
+[project]
+name = "robot-gym"
+version = "0.1.0"
+description = "Mac-first robot gym: humanoid walk, Panda pick, G1 room cleanup (5 toys)."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "gymnasium[mujoco]>=1.2",
+  "stable-baselines3>=2.6",
+  "tensorboard>=2.18",
+  "rich>=13.9",
+]
+
+[project.scripts]
+robot-gym-view = "robot_gym.view:main"
+robot-gym-train = "robot_gym.train:main"
+robot-gym-play = "robot_gym.play:main"
+robot-gym-pick-view = "robot_gym.pick_view:main"
+robot-gym-pick-collect = "robot_gym.pick_collect:main"
+robot-gym-pick-train = "robot_gym.pick_train_bc:main"
+robot-gym-pick-play = "robot_gym.pick_play:main"
+robot-gym-room = "robot_gym.room_view:main"
+robot-gym-wm-toy = "robot_gym.world_model_toy:main"
+robot-gym-wm-sweep = "robot_gym.world_model_sweep:main"
+robot-gym-wm-eval = "robot_gym.eval_layer:main"
+robot-gym-wm-calibrate = "robot_gym.eval_calibrate:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["robot_gym"]
+
+[tool.uv]
+package = true

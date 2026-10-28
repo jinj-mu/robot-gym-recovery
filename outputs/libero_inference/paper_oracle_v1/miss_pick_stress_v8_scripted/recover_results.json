@@ -1,0 +1,95 @@
+{
+  "summary": {
+    "n": 3,
+    "n_success": 1,
+    "success_rate": 0.3333333333333333,
+    "mean_retries_on_success": 2.0,
+    "mean_retries_all": 14.0
+  },
+  "episodes": [
+    {
+      "task_id": 3,
+      "episode_index": 3,
+      "seed": 1303,
+      "mode_gt": "leave_empty",
+      "success": false,
+      "n_retries": 20,
+      "fire_steps": [
+        85,
+        155,
+        214,
+        284,
+        349,
+        419,
+        483,
+        543,
+        612,
+        680,
+        749,
+        823,
+        893,
+        969,
+        1039,
+        1107,
+        1179,
+        1250,
+        1324,
+        1402
+      ],
+      "handback_steps": [
+        1475
+      ],
+      "n_frames": 0
+    },
+    {
+      "task_id": 3,
+      "episode_index": 7,
+      "seed": 1307,
+      "mode_gt": "leave_empty",
+      "success": false,
+      "n_retries": 20,
+      "fire_steps": [
+        190,
+        263,
+        317,
+        377,
+        439,
+        507,
+        570,
+        626,
+        691,
+        757,
+        826,
+        898,
+        967,
+        1041,
+        1111,
+        1178,
+        1250,
+        1320,
+        1393,
+        1470
+      ],
+      "handback_steps": [
+        1542
+      ],
+      "n_frames": 0
+    },
+    {
+      "task_id": 9,
+      "episode_index": 6,
+      "seed": 1906,
+      "mode_gt": "leave_empty",
+      "success": true,
+      "n_retries": 2,
+      "fire_steps": [
+        64,
+        155
+      ],
+      "handback_steps": [
+        227
+      ],
+      "n_frames": 0
+    }
+  ]
+}

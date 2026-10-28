@@ -1,0 +1,22 @@
+{
+  "policy_path": "lerobot/pi0_libero_finetuned",
+  "policy_type": "pi0",
+  "env_task": "libero_object",
+  "task_id": 6,
+  "task_description": "pick up the butter and place it in the basket",
+  "episode_index": 2,
+  "seed": 1602,
+  "success": true,
+  "num_steps": 146,
+  "num_inference_calls": 3,
+  "wall_time_s": 15.928060915961396,
+  "mean_step_time_s": 0.1090963076435712,
+  "n_action_steps": 50,
+  "chunk_size": 50,
+  "grasp_retry": false,
+  "n_retry_sequences": 0,
+  "held_object": false,
+  "trajectory_csv": "outputs/libero_inference/paper_oracle_v1/pi0_baseline/episodes/libero_object_task6_ep2/trajectory.csv",
+  "episode_json": "outputs/libero_inference/paper_oracle_v1/pi0_baseline/episodes/libero_object_task6_ep2/episode.json",
+  "video_path": null
+}

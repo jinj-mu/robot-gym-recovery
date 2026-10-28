@@ -1,0 +1,48 @@
+{
+  "summary": {
+    "n": 1,
+    "n_success": 0,
+    "success_rate": 0.0
+  },
+  "episodes": [
+    {
+      "task_id": 3,
+      "episode_index": 3,
+      "seed": 1303,
+      "mode_gt": "leave_empty",
+      "success": false,
+      "n_retries": 13,
+      "fire_steps": [
+        85,
+        148,
+        244,
+        341,
+        436,
+        536,
+        632,
+        731,
+        828,
+        925,
+        1024,
+        1122,
+        1219
+      ],
+      "handback_steps": [
+        107,
+        203,
+        300,
+        395,
+        495,
+        591,
+        690,
+        787,
+        884,
+        983,
+        1081,
+        1178,
+        1280
+      ],
+      "n_frames": 0
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "policy_path": "lerobot/pi0_libero_finetuned",
+  "policy_type": "pi0",
+  "env_task": "libero_object",
+  "task_id": 4,
+  "task_description": "pick up the ketchup and place it in the basket",
+  "episode_index": 5,
+  "seed": 1405,
+  "success": true,
+  "num_steps": 138,
+  "num_inference_calls": 3,
+  "wall_time_s": 117.7647686250275,
+  "mean_step_time_s": 0.8533678885871558,
+  "n_action_steps": 50,
+  "chunk_size": 50,
+  "grasp_retry": false,
+  "n_retry_sequences": 0,
+  "held_object": false,
+  "trajectory_csv": "outputs/libero_inference/paper_oracle_v1/pi0_baseline/episodes/libero_object_task4_ep5/trajectory.csv",
+  "episode_json": "outputs/libero_inference/paper_oracle_v1/pi0_baseline/episodes/libero_object_task4_ep5/episode.json",
+  "video_path": null
+}

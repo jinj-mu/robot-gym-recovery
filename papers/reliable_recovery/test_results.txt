@@ -1,0 +1,13 @@
+test_corruption_rejected (test_bundle.BundleTests) ... ok
+test_hard_process_exit_at_four_checkpoints (test_bundle.BundleTests) ... ok
+test_manifest_change_rejected (test_bundle.BundleTests) ... ok
+test_missing_snapshot_file_rejected (test_bundle.BundleTests) ... ok
+test_missing_source_preserves_current (test_bundle.BundleTests) ... ok
+test_offline_integrity_and_metadata (test_bundle.BundleTests) ... ok
+test_path_escape_rejected (test_bundle.BundleTests) ... ok
+test_successful_update_retains_old_bundle (test_bundle.BundleTests) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.121s
+
+OK

@@ -1,0 +1,194 @@
+{
+  "n": 12,
+  "n_success": 8,
+  "episodes": [
+    {
+      "seed": 1101,
+      "task_id": 1,
+      "object": "cream cheese",
+      "success": true,
+      "n_retries": 1,
+      "fire_steps": [
+        179
+      ],
+      "n_fail_frames": 300,
+      "n_retry_frames": 301,
+      "two_way": "outputs/libero_inference/paper_oracle_v1/recovered_sxs_12/seed1101_cream_cheese/two_way.mp4"
+    },
+    {
+      "seed": 1202,
+      "task_id": 2,
+      "object": "salad dressing",
+      "success": true,
+      "n_retries": 1,
+      "reused": true,
+      "two_way": "outputs/libero_inference/paper_oracle_v1/recovered_sxs_12/seed1202_salad_dressing/two_way.mp4"
+    },
+    {
+      "seed": 1207,
+      "task_id": 2,
+      "object": "salad dressing",
+      "success": true,
+      "n_retries": 1,
+      "fire_steps": [
+        71
+      ],
+      "n_fail_frames": 300,
+      "n_retry_frames": 233,
+      "two_way": "outputs/libero_inference/paper_oracle_v1/recovered_sxs_12/seed1207_salad_dressing/two_way.mp4"
+    },
+    {
+      "seed": 1209,
+      "task_id": 2,
+      "object": "salad dressing",
+      "success": true,
+      "n_retries": 2,
+      "fire_steps": [
+        67,
+        151
+      ],
+      "n_fail_frames": 300,
+      "n_retry_frames": 316,
+      "two_way": "outputs/libero_inference/paper_oracle_v1/recovered_sxs_12/seed1209_salad_dressing/two_way.mp4"
+    },
+    {
+      "seed": 1302,
+      "task_id": 3,
+      "object": "bbq sauce",
+      "success": true,
+      "n_retries": 2,
+      "fire_steps": [
+        75,
+        143
+      ],
+      "n_fail_frames": 300,
+      "n_retry_frames": 309,
+      "two_way": "outputs/libero_inference/paper_oracle_v1/recovered_sxs_12/seed1302_bbq_sauce/two_way.mp4"
+    },
+    {
+      "seed": 1502,
+      "task_id": 5,
+      "object": "tomato sauce",
+      "success": true,
+      "n_retries": 1,
+      "fire_steps": [
+        81
+      ],
+      "n_fail_frames": 300,
+      "n_retry_frames": 217,
+      "two_way": "outputs/libero_inference/paper_oracle_v1/recovered_sxs_12/seed1502_tomato_sauce/two_way.mp4"
+    },
+    {
+      "seed": 1505,
+      "task_id": 5,
+      "object": "tomato sauce",
+      "success": true,
+      "n_retries": 1,
+      "fire_steps": [
+        78
+      ],
+      "n_fail_frames": 300,
+      "n_retry_frames": 218,
+      "two_way": "outputs/libero_inference/paper_oracle_v1/recovered_sxs_12/seed1505_tomato_sauce/two_way.mp4"
+    },
+    {
+      "seed": 1608,
+      "task_id": 6,
+      "object": "butter",
+      "success": true,
+      "n_retries": 1,
+      "fire_steps": [
+        81
+      ],
+      "n_fail_frames": 300,
+      "n_retry_frames": 255,
+      "two_way": "outputs/libero_inference/paper_oracle_v1/recovered_sxs_12/seed1608_butter/two_way.mp4"
+    },
+    {
+      "seed": 1703,
+      "task_id": 7,
+      "object": "milk",
+      "success": false,
+      "n_retries": 12,
+      "fire_steps": [
+        66,
+        162,
+        254,
+        962,
+        1048,
+        1117,
+        1185,
+        1245,
+        1314,
+        1378,
+        1447,
+        1520
+      ],
+      "n_fail_frames": 300,
+      "n_retry_frames": 2500,
+      "two_way": "outputs/libero_inference/paper_oracle_v1/recovered_sxs_12/seed1703_milk/two_way.mp4"
+    },
+    {
+      "seed": 1707,
+      "task_id": 7,
+      "object": "milk",
+      "success": false,
+      "n_retries": 12,
+      "fire_steps": [
+        63,
+        157,
+        246,
+        319,
+        383,
+        452,
+        518,
+        586,
+        657,
+        724,
+        792,
+        865
+      ],
+      "n_fail_frames": 300,
+      "n_retry_frames": 2500,
+      "two_way": "outputs/libero_inference/paper_oracle_v1/recovered_sxs_12/seed1707_milk/two_way.mp4"
+    },
+    {
+      "seed": 1900,
+      "task_id": 9,
+      "object": "orange juice",
+      "success": false,
+      "n_retries": 12,
+      "fire_steps": [
+        80,
+        175,
+        265,
+        344,
+        414,
+        481,
+        555,
+        620,
+        709,
+        777,
+        849,
+        934
+      ],
+      "n_fail_frames": 300,
+      "n_retry_frames": 2500,
+      "two_way": "outputs/libero_inference/paper_oracle_v1/recovered_sxs_12/seed1900_orange_juice/two_way.mp4"
+    },
+    {
+      "seed": 1906,
+      "task_id": 9,
+      "object": "orange juice",
+      "success": false,
+      "n_retries": 2,
+      "fire_steps": [
+        64,
+        154
+      ],
+      "n_fail_frames": 300,
+      "n_retry_frames": 2500,
+      "two_way": "outputs/libero_inference/paper_oracle_v1/recovered_sxs_12/seed1906_orange_juice/two_way.mp4"
+    }
+  ]
+}

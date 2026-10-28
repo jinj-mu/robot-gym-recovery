@@ -1,0 +1,95 @@
+{
+  "summary": {
+    "n": 3,
+    "n_success": 1,
+    "success_rate": 0.3333333333333333,
+    "mean_retries_on_success": 7.0,
+    "mean_retries_all": 13.0
+  },
+  "episodes": [
+    {
+      "task_id": 3,
+      "episode_index": 3,
+      "seed": 1303,
+      "mode_gt": "leave_empty",
+      "success": false,
+      "n_retries": 16,
+      "fire_steps": [
+        85,
+        148,
+        213,
+        268,
+        327,
+        380,
+        439,
+        495,
+        550,
+        608,
+        685,
+        747,
+        809,
+        867,
+        928,
+        987
+      ],
+      "handback_steps": [
+        107,
+        1046
+      ],
+      "n_frames": 0
+    },
+    {
+      "task_id": 3,
+      "episode_index": 7,
+      "seed": 1307,
+      "mode_gt": "leave_empty",
+      "success": false,
+      "n_retries": 16,
+      "fire_steps": [
+        190,
+        256,
+        305,
+        358,
+        416,
+        470,
+        528,
+        584,
+        639,
+        696,
+        756,
+        814,
+        875,
+        933,
+        994,
+        1053
+      ],
+      "handback_steps": [
+        214,
+        1111
+      ],
+      "n_frames": 0
+    },
+    {
+      "task_id": 9,
+      "episode_index": 6,
+      "seed": 1906,
+      "mode_gt": "leave_empty",
+      "success": true,
+      "n_retries": 7,
+      "fire_steps": [
+        64,
+        133,
+        203,
+        263,
+        322,
+        376,
+        434
+      ],
+      "handback_steps": [
+        92,
+        492
+      ],
+      "n_frames": 0
+    }
+  ]
+}

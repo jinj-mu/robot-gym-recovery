@@ -1,0 +1,187 @@
+{
+  "n": 100,
+  "successes": 83,
+  "fails": 17,
+  "success_rate": 0.83,
+  "failure_rate": 0.17,
+  "per_task": {
+    "0": {
+      "succ": 10,
+      "n": 10
+    },
+    "1": {
+      "succ": 9,
+      "n": 10
+    },
+    "2": {
+      "succ": 7,
+      "n": 10
+    },
+    "3": {
+      "succ": 7,
+      "n": 10
+    },
+    "4": {
+      "succ": 10,
+      "n": 10
+    },
+    "5": {
+      "succ": 8,
+      "n": 10
+    },
+    "6": {
+      "succ": 9,
+      "n": 10
+    },
+    "7": {
+      "succ": 8,
+      "n": 10
+    },
+    "8": {
+      "succ": 8,
+      "n": 10
+    },
+    "9": {
+      "succ": 7,
+      "n": 10
+    }
+  },
+  "fail_list": [
+    {
+      "task_id": 1,
+      "episode_index": 1,
+      "seed": 1101,
+      "steps": 280,
+      "task_description": "pick up the cream cheese and place it in the basket",
+      "trajectory_csv": "outputs/libero_inference/paper_oracle_v1/pi0_baseline/episodes/libero_object_task1_ep1/trajectory.csv"
+    },
+    {
+      "task_id": 2,
+      "episode_index": 2,
+      "seed": 1202,
+      "steps": 280,
+      "task_description": "pick up the salad dressing and place it in the basket",
+      "trajectory_csv": "outputs/libero_inference/paper_oracle_v1/pi0_baseline/episodes/libero_object_task2_ep2/trajectory.csv"
+    },
+    {
+      "task_id": 2,
+      "episode_index": 7,
+      "seed": 1207,
+      "steps": 280,
+      "task_description": "pick up the salad dressing and place it in the basket",
+      "trajectory_csv": "outputs/libero_inference/paper_oracle_v1/pi0_baseline/episodes/libero_object_task2_ep7/trajectory.csv"
+    },
+    {
+      "task_id": 2,
+      "episode_index": 9,
+      "seed": 1209,
+      "steps": 280,
+      "task_description": "pick up the salad dressing and place it in the basket",
+      "trajectory_csv": "outputs/libero_inference/paper_oracle_v1/pi0_baseline/episodes/libero_object_task2_ep9/trajectory.csv"
+    },
+    {
+      "task_id": 3,
+      "episode_index": 2,
+      "seed": 1302,
+      "steps": 280,
+      "task_description": "pick up the bbq sauce and place it in the basket",
+      "trajectory_csv": "outputs/libero_inference/paper_oracle_v1/pi0_baseline/episodes/libero_object_task3_ep2/trajectory.csv"
+    },
+    {
+      "task_id": 3,
+      "episode_index": 3,
+      "seed": 1303,
+      "steps": 280,
+      "task_description": "pick up the bbq sauce and place it in the basket",
+      "trajectory_csv": "outputs/libero_inference/paper_oracle_v1/pi0_baseline/episodes/libero_object_task3_ep3/trajectory.csv"
+    },
+    {
+      "task_id": 3,
+      "episode_index": 7,
+      "seed": 1307,
+      "steps": 280,
+      "task_description": "pick up the bbq sauce and place it in the basket",
+      "trajectory_csv": "outputs/libero_inference/paper_oracle_v1/pi0_baseline/episodes/libero_object_task3_ep7/trajectory.csv"
+    },
+    {
+      "task_id": 5,
+      "episode_index": 2,
+      "seed": 1502,
+      "steps": 280,
+      "task_description": "pick up the tomato sauce and place it in the basket",
+      "trajectory_csv": "outputs/libero_inference/paper_oracle_v1/pi0_baseline/episodes/libero_object_task5_ep2/trajectory.csv"
+    },
+    {
+      "task_id": 5,
+      "episode_index": 5,
+      "seed": 1505,
+      "steps": 280,
+      "task_description": "pick up the tomato sauce and place it in the basket",
+      "trajectory_csv": "outputs/libero_inference/paper_oracle_v1/pi0_baseline/episodes/libero_object_task5_ep5/trajectory.csv"
+    },
+    {
+      "task_id": 6,
+      "episode_index": 8,
+      "seed": 1608,
+      "steps": 280,
+      "task_description": "pick up the butter and place it in the basket",
+      "trajectory_csv": "outputs/libero_inference/paper_oracle_v1/pi0_baseline/episodes/libero_object_task6_ep8/trajectory.csv"
+    },
+    {
+      "task_id": 7,
+      "episode_index": 3,
+      "seed": 1703,
+      "steps": 280,
+      "task_description": "pick up the milk and place it in the basket",
+      "trajectory_csv": "outputs/libero_inference/paper_oracle_v1/pi0_baseline/episodes/libero_object_task7_ep3/trajectory.csv"
+    },
+    {
+      "task_id": 7,
+      "episode_index": 7,
+      "seed": 1707,
+      "steps": 280,
+      "task_description": "pick up the milk and place it in the basket",
+      "trajectory_csv": "outputs/libero_inference/paper_oracle_v1/pi0_baseline/episodes/libero_object_task7_ep7/trajectory.csv"
+    },
+    {
+      "task_id": 8,
+      "episode_index": 2,
+      "seed": 1802,
+      "steps": 280,
+      "task_description": "pick up the chocolate pudding and place it in the basket",
+      "trajectory_csv": "outputs/libero_inference/paper_oracle_v1/pi0_baseline/episodes/libero_object_task8_ep2/trajectory.csv"
+    },
+    {
+      "task_id": 8,
+      "episode_index": 4,
+      "seed": 1804,
+      "steps": 280,
+      "task_description": "pick up the chocolate pudding and place it in the basket",
+      "trajectory_csv": "outputs/libero_inference/paper_oracle_v1/pi0_baseline/episodes/libero_object_task8_ep4/trajectory.csv"
+    },
+    {
+      "task_id": 9,
+      "episode_index": 0,
+      "seed": 1900,
+      "steps": 280,
+      "task_description": "pick up the orange juice and place it in the basket",
+      "trajectory_csv": "outputs/libero_inference/paper_oracle_v1/pi0_baseline/episodes/libero_object_task9_ep0/trajectory.csv"
+    },
+    {
+      "task_id": 9,
+      "episode_index": 6,
+      "seed": 1906,
+      "steps": 280,
+      "task_description": "pick up the orange juice and place it in the basket",
+      "trajectory_csv": "outputs/libero_inference/paper_oracle_v1/pi0_baseline/episodes/libero_object_task9_ep6/trajectory.csv"
+    },
+    {
+      "task_id": 9,
+      "episode_index": 7,
+      "seed": 1907,
+      "steps": 280,
+      "task_description": "pick up the orange juice and place it in the basket",
+      "trajectory_csv": "outputs/libero_inference/paper_oracle_v1/pi0_baseline/episodes/libero_object_task9_ep7/trajectory.csv"
+    }
+  ]
+}
