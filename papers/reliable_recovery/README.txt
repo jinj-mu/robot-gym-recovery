@@ -2,7 +2,7 @@ Reliable Recovery Around a Frozen Robot Policy
 ============================================
 Authors: Jinjin Zhao and James Thompson.
 Author links: https://www.linkedin.com/in/jinjzhao and https://www.linkedin.com/in/astrojams1
-Draft date: October 28, 2026.
+Draft date: September 26, 2026.
 
 Build the paper:
   pdflatex main.tex
